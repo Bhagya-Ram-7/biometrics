@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<title> Biometrics and Student Grades</title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>li {display: contents;}</style> -->
+</head>
+<body>
+    <header>
+        <h1> Biometrics and Student Grades</h1>
+    </header>
+
+<div class="scatterplot-container">
+    <div calss="dropdown-container">
+        <select id="biometricDropdown"></select>
+        <select id="examDropdown"></select>
+    </div>
+    <svg id="scatterplot" width="600" height="400"></svg>
+</div>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="scatter.js" type="module"></script>
+
+</body>
+</html>

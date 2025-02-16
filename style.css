@@ -1,0 +1,30 @@
+#biometricDropdown {
+    position: relative;
+    display: inline-block;
+}
+#examDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.scatterplot-container{
+    position: relative; 
+    width: 600px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#scatterplot{
+    display:block; 
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}

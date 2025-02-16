@@ -1,0 +1,20 @@
+[
+    {
+        "student": "Student 1",
+        "biometric": {
+            "temp": {"Midterm 1": 26.41, "Midterm 2": 27.12, "Final": 26.18},
+            "EDA": {"Midterm 1": 0.325, "Midterm 2": 0.116, "Final": 0.102},
+            "heart_rate": {"Midterm 1": 103.11, "Midterm 2": 110.99, "Final": 106.12}
+        },
+        "grades": {"Midterm 1": 78, "Midterm 2": 82, "Final": 91}
+    },
+    {
+        "student": "Student 2",
+        "biometric": {
+            "temp": {"Midterm 1":  28.69, "Midterm 2": 27.87, "Final": 28.18},
+            "EDA": {"Midterm 1": 0.164, "Midterm 2": 0.125, "Final": 0.078},
+            "heart_rate": {"Midterm 1": 111.45, "Midterm 2": 106.65, "Final": 119.90}
+        },
+        "grades": {"Midterm 1": 82, "Midterm 2": 85, "Final": 90}
+    }
+]
