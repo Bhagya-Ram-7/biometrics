@@ -1,11 +1,25 @@
-#biometricDropdown {
+#biometricDropdown, #examDropdown {
     position: relative;
     display: inline-block;
+    padding: 1px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-#examDropdown {
-    position: relative;
-    display: inline-block;
+
+#biometricDropdown:hover, #examDropdown:hover {
+    background-color: #e6e6e6;
 }
+
+#biometricDropdown:focus, #examDropdown:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
 
 .dropdown-container{
     display: flex; 
@@ -27,4 +41,14 @@
 
 header {
     text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }

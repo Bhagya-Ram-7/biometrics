@@ -2,19 +2,61 @@
     {
         "student": "Student 1",
         "biometric": {
-            "temp": {"Midterm 1": 26.41, "Midterm 2": 27.12, "Final": 26.18},
-            "EDA": {"Midterm 1": 0.325, "Midterm 2": 0.116, "Final": 0.102},
-            "heart_rate": {"Midterm 1": 103.11, "Midterm 2": 110.99, "Final": 106.12}
+            "Temperature": {"Midterm 1": 26.41, "Midterm 2": 27.12, "Final": 26.18},
+            "Electradermal Activity": {"Midterm 1": 0.325, "Midterm 2": 0.116, "Final": 0.102},
+            "Heart Rate": {"Midterm 1": 103.11, "Midterm 2": 110.99, "Final": 106.12}, 
+            "IBI": {"Midterm 1": 0.507, "Midterm 2": 0.515, "Final": 0.564}
         },
         "grades": {"Midterm 1": 78, "Midterm 2": 82, "Final": 91}
     },
     {
         "student": "Student 2",
         "biometric": {
-            "temp": {"Midterm 1":  28.69, "Midterm 2": 27.87, "Final": 28.18},
-            "EDA": {"Midterm 1": 0.164, "Midterm 2": 0.125, "Final": 0.078},
-            "heart_rate": {"Midterm 1": 111.45, "Midterm 2": 106.65, "Final": 119.90}
+            "Temperature": {"Midterm 1":  28.69, "Midterm 2": 27.87, "Final": 28.18},
+            "Electradermal Activity": {"Midterm 1": 0.164, "Midterm 2": 0.125, "Final": 0.078},
+            "Heart Rate": {"Midterm 1": 111.45, "Midterm 2": 106.65, "Final": 119.90},
+            "IBI": {"Midterm 1": 0.533, "Midterm 2": 0.612, "Final": 0.565}
         },
         "grades": {"Midterm 1": 82, "Midterm 2": 85, "Final": 90}
+    },
+    {
+        "student": "Student 3",
+        "biometric": {
+            "Temperature": {"Midterm 1":  26.73, "Midterm 2": 28.07, "Final": 26.50},
+            "Electradermal Activity": {"Midterm 1": 0.236, "Midterm 2": 0.572, "Final": 0.169},
+            "Heart Rate": {"Midterm 1": 105.68, "Midterm 2": 97.41, "Final": 104.51},
+            "IBI": {"Midterm 1": 0.544, "Midterm 2": 0.636, "Final": 0.664}
+        },
+        "grades": {"Midterm 1": 77, "Midterm 2": 90, "Final": 94}
+    },
+    {
+        "student": "Student 4",
+        "biometric": {
+            "Temperature": {"Midterm 1":  25.40, "Midterm 2": 26.20, "Final": 28.37},
+            "Electradermal Activity": {"Midterm 1": 0.339, "Midterm 2": 0.496, "Final": 0.803},
+            "Heart Rate": {"Midterm 1": 110.63, "Midterm 2": 94.80, "Final": 92.67},
+            "IBI": {"Midterm 1": 0.482, "Midterm 2": 0.628, "Final": 0.803}
+        },
+        "grades": {"Midterm 1": 75, "Midterm 2": 77, "Final": 74.5}
+    },
+    {
+        "student": "Student 5",
+        "biometric": {
+            "Temperature": {"Midterm 1": 26.80, "Midterm 2": 28.21, "Final": 30.18},
+            "Electradermal Activity": {"Midterm 1": 0.147, "Midterm 2": 0.375, "Final": 0.542},
+            "Heart Rate": {"Midterm 1": 108.26, "Midterm 2": 113.32, "Final": 95.40},
+            "IBI": {"Midterm 1": 0.508, "Midterm 2": 0.546, "Final": 0.611}
+        },
+        "grades": {"Midterm 1": 67, "Midterm 2": 77, "Final": 78.5}
+    },
+    {
+        "student": "Student 6",
+        "biometric": {
+            "Temperature": {"Midterm 1":  28.69, "Midterm 2": 27.87, "Final": 28.18},
+            "Electradermal Activity": {"Midterm 1": 0.164, "Midterm 2": 0.125, "Final": 0.078},
+            "Heart Rate": {"Midterm 1": 111.45, "Midterm 2": 106.65, "Final": 119.90},
+            "IBI": {"Midterm 1": 0.533, "Midterm 2": 0.612, "Final": 0.565}
+        },
+        "grades": {"Midterm 1": 71, "Midterm 2": 64, "Final": 87.5}
     }
 ]
