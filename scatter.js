@@ -60,7 +60,7 @@ function updateChart(data, selectedBiometric, selectedExam) {
             d3.select(this)
                 .transition()
                 .duration(200)
-                .attr("r", 10);
+                .attr("r", 10); //dot becomes enlarged when hovering over it
             d3.select("#tooltip").style("display", "block")
                 .html(`${d.student}: ${d.biometric[selectedBiometric][selectedExam]}, Grade: ${d.grades[selectedExam]}`)
                 .style("left", (event.pageX + 10) + "px")
